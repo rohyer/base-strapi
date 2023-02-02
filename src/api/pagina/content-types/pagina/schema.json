@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "singularName": "pagina",
+    "pluralName": "paginas",
+    "displayName": "Página",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "uid",
+      "required": true
+    },
+    "innerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "innerContent": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "homeButtonText": {
+      "type": "string"
+    },
+    "homeButtonLink": {
+      "type": "string"
+    },
+    "homeTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
