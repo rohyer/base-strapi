@@ -23,7 +23,21 @@
     "innerContent": {
       "type": "text"
     },
-    "image": {
+    "innerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "homeTitle": {
+      "type": "string"
+    },
+    "homeContent": {
+      "type": "text"
+    },
+    "homeImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -38,6 +52,11 @@
       "type": "string"
     },
     "homeTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "pagePosts": {
       "type": "boolean",
       "default": false,
       "required": true
