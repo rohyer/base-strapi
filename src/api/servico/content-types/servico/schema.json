@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Serviço",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "uid",
+      "required": true
+    },
+    "innerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "innerContent": {
+      "type": "text"
+    },
+    "innerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cardTitle": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "link": {
+      "type": "string"
+    },
+    "tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
