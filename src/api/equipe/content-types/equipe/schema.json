@@ -4,7 +4,8 @@
   "info": {
     "singularName": "equipe",
     "pluralName": "equipes",
-    "displayName": "Equipe"
+    "displayName": "Equipe",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,23 +24,28 @@
       "type": "text"
     },
     "innerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "cardName": {
       "type": "string"
     },
     "cardJob": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }

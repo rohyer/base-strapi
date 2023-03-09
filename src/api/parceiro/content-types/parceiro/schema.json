@@ -4,7 +4,8 @@
   "info": {
     "singularName": "parceiro",
     "pluralName": "parceiros",
-    "displayName": "Parceiro"
+    "displayName": "Parceiro",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,18 +24,23 @@
       "type": "text"
     },
     "innerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
