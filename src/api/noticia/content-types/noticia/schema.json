@@ -45,6 +45,11 @@
     },
     "link": {
       "type": "string"
+    },
+    "tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
