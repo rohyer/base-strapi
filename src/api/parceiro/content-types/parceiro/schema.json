@@ -12,9 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "url": {
+    "slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "innerTitle"
     },
     "innerTitle": {
       "type": "string",
@@ -44,8 +45,7 @@
     },
     "tab": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "required": false
     }
   }
 }

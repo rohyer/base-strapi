@@ -12,13 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "url": {
+    "slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "innerTitle"
     },
     "innerTitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "innerContent": {
       "type": "text"
@@ -53,13 +54,17 @@
     },
     "homeTab": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "required": false
     },
     "pagePosts": {
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "menuTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
     }
   }
 }
