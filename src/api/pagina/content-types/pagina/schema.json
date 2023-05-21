@@ -21,9 +21,6 @@
       "type": "string",
       "required": false
     },
-    "innerContent": {
-      "type": "text"
-    },
     "innerImage": {
       "type": "media",
       "multiple": false,
@@ -34,9 +31,6 @@
     },
     "homeTitle": {
       "type": "string"
-    },
-    "homeContent": {
-      "type": "text"
     },
     "homeImage": {
       "type": "media",
@@ -65,6 +59,12 @@
       "type": "string",
       "required": true,
       "maxLength": 25
+    },
+    "innerContent": {
+      "type": "richtext"
+    },
+    "homeContent": {
+      "type": "richtext"
     }
   }
 }
