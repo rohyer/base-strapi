@@ -39,13 +39,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "link": {
-      "type": "string"
-    },
-    "tab": {
-      "type": "boolean",
-      "required": false
     }
   }
 }

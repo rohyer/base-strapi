@@ -45,13 +45,6 @@
     },
     "cardJob": {
       "type": "string"
-    },
-    "link": {
-      "type": "string"
-    },
-    "tab": {
-      "type": "boolean",
-      "required": false
     }
   }
 }

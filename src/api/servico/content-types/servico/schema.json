@@ -43,13 +43,6 @@
     "cardTitle": {
       "type": "string",
       "maxLength": 40
-    },
-    "link": {
-      "type": "string"
-    },
-    "tab": {
-      "type": "boolean",
-      "required": false
     }
   }
 }
